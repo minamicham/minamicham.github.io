@@ -1,1 +1,0 @@
-# minamicham.github.io
