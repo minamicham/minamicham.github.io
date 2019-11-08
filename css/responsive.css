@@ -1,13 +1,9 @@
-@media screen and (min-width:320px) and (max-width:640px){
-  body {
-    width: 345px;
-    max-width: 100%;
-  }
-  
+@media screen and (max-width:640px) {
+  /*ヘッダー*/
   header {
-    height: 45px;
-    margin: initial;
-    margin: 20px 0;
+    display: block;
+    height: 12.17%;
+    margin: 5.80% 0 4.35% 5.80%;
   }
 
   .header-logo {
@@ -23,61 +19,122 @@
 
   .header-nav li {
     padding: initial;
-    margin-right: 12px;
-  }
-  .top-wrapper img {
-  margin-bottom: 40px;
-  max-width: 100%;
+    margin-right: 3.48%;
   }
 
+  /*トップラッパー*/
+  .top-wrapper img {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+   /*コンテンツ*/
+   .contents-wrapper {
+    display: block;
+    margin: initial;
+    margin: 0 4.35% 60px 4.35%;
+  }
+
+   /*メイン*/
+   .main-container {
+     width: 100%;
+     margin: initial;
+   }
+
+
+  /*タイトル*/
   .title {
     font-size: 22px;
     border-bottom: 3px solid #1F91BE;
-    width: 345px;
+    margin: initial;
     margin-bottom: 20px;
   }
 
+  /*アバウト*/
   .about-wrapper {
     display: block;
   }
 
-  .about-wrapper img {
-    padding-bottom: 20px;
-    max-width: 100%;
+  .about1 {
+    padding: initial;
   }
 
-  .date {
+  .about2 {
+    padding: initial;
+  }
+
+  .about-wrapper img {
+    padding-bottom: 20px;
     width: 100%;
   }
+
   .text-contents {
+    font-size: 16px;
+    width: 100%;
     padding: initial;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+
+  /*ニュース*/
+  .date {
+    width: 100%;
+    padding: initial;
+    padding: 20px 0;
+  }
+  .news-item {
+    padding: initial;
   }
 
   .news-box {
     display: block;
     width: 100%;
+    padding-bottom: 20px;
   }
 
-  .contents-wrapper {
-    display: block;
+  .news-item {
+    padding: initial;
   }
 
+
+  /*ボタン*/
   .btn {
-    padding: 13px 39px;
+    font-size: 14px;
+    padding: 13px 10.40%;
   }
   .btn-wrapper {
-    width: 345px;
+    width: 100%;
     text-align: center;
     margin-bottom: 60px;
   }
-  
-  .picture {
+
+  /*サイド*/
+  .side {
     width: 100%;
   }
 
+  .side-title {
+    font-size: 22px;
+    border-bottom: 3px solid #1F91BE;
+  }
+  
+  
+  /*写真*/
+  .photo img {
+    width: 100%;
+
+  }
+  /*カテゴリー*/
   .side-container {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
 
+  .side-container ul {
+    font-size: 14px;
+  }
+
+  /*フッター*/
+  footer {
+    font-size: 10px;
+    height: 40px;
+  }
 }
