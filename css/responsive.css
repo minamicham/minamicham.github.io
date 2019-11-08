@@ -3,6 +3,7 @@
   header {
     display: block;
     height: 12.17%;
+    margin: initial;
     margin: 5.80% 0 4.35% 5.80%;
   }
 
@@ -10,11 +11,17 @@
     margin: initial;
     font-size: 18px;
     justify-content: flex-start;
+    margin-bottom: 10px;
   }
 
   .header-nav {
     margin: initial;
     font-size: 14px;
+    font-weight: bold;
+  }
+
+  .header-nav ul {
+    margin: initial;
   }
 
   .header-nav li {
@@ -99,12 +106,20 @@
   /*ボタン*/
   .btn {
     font-size: 14px;
-    padding: 13px 10.40%;
+    width: 148px;
+    height: 40px;
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
   .btn-wrapper {
     width: 100%;
     text-align: center;
     margin-bottom: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
   }
 
   /*サイド*/
@@ -116,12 +131,17 @@
     font-size: 22px;
     border-bottom: 3px solid #1F91BE;
   }
+
+  .side-container {
+    margin: initial;
+  }
   
   
   /*写真*/
+
   .photo img {
     width: 100%;
-
+    align-content: space-between;
   }
   /*カテゴリー*/
   .side-container {
