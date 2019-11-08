@@ -6,11 +6,14 @@ body {
   font-family: "游ゴシック体", YuGothic;  
 } 
 
+.wrapper {
+  max-width: 100%;
+}
+
 /*ヘッダー*/
 header {
-  max-width: 1080px;
-  margin: 0 auto; 
-  height: 4.56%;
+  height: 75px;
+  margin: 0 7.81%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -21,7 +24,6 @@ header {
 .header-logo {
   color: #1F91BE;
   font-size: 31px;
-  margin: 22px 30px;
   text-align: left;
 }
 
@@ -40,13 +42,12 @@ header {
 
 /*トップラッパー*/
 .top-wrapper img {
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 6.08%;
 }
  
 /*コンテンツ*/
 .contents-wrapper {
-  max-width: 1080px;
   display: flex;
   justify-content: space-between;
   margin: 0 7.81% 100px 7.81%;
@@ -64,6 +65,7 @@ header {
   color: #1F91BE;
   border-bottom: 4px solid #1F91BE;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 /*アバウト*/
@@ -82,7 +84,7 @@ header {
 }
 
 .about-wrapper img {
-  max-width: 100%;
+  width: 100%;
   padding-bottom: 30px;
 }
 .text-contents {
@@ -92,24 +94,25 @@ header {
 
 /*ニュース*/
 .news-box {
-  max-width: 700px;
   margin: 0 auto;              /* 余白指定 */
   display: flex;              /* フレックスボックスにする */
   justify-content:center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #6F6F6F;
   font-size: 14px;
 }
 
 .date {
   font-weight: bold;
   min-width: 28%;
-  padding: 20px 0;
+  padding-bottom: 20px;
+  margin-right: 4.44%;
+  white-space: nowrap;
 }
 
 .news-item {
   color:  #333333;
   width: 100%;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 /*ボタン*/
@@ -117,23 +120,27 @@ header {
   width: 100%;
   text-align: right;
   margin-top: 20px;
+  justify-content: flex-end;
+ 
 }
 .btn {
   display: inline-block;
   color: #1F91BE;
   border: 2px solid #1F91BE;
-  padding: 8px 34px;
+  width: 148px;
+  height: 32px;
   font-weight: bold;
+  text-align: center;
 }
 
 /*サイド*/
 .side {
   width: 28%;
+  margin: initial;
 }
 
 /*写真*/
 .photo img {
-  max-width: 300px;
   width: 100%;
   padding-bottom: 30px;
 }
@@ -143,12 +150,16 @@ header {
   font-size: 32px;
   color: #1F91BE;
   border-bottom: 4px solid #1F91BE;
+  white-space: nowrap;
   margin: 29px 0;
-  width: 100%;
+  font-weight: bold;
+}
+
+.side-container {
+  margin-left: 6.94%;
 }
 
 .side-container ul {
-  width: 300px;
   font-weight: bold;
 }
 .side-container li {
@@ -158,10 +169,19 @@ header {
 /*フッター*/
 footer {
   background: #C7C7C7;
-  text-align: center;
   font-size: 12px;
   font-weight: bold;
   color: #FFFFFF;
   height: 50px;
-  padding: 18px 0;
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+}
+
+footer p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
